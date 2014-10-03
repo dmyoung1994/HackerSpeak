@@ -3,7 +3,7 @@
 	var verbs 	  = ["Building", "Scaling", "Hashing", "Importing", "Compiling", "Replicating",
 				   	 "Optimizing", "Composing", "Migrating", "Engineering", "Visualizing", 
 				     "Layering", "Spinning Up", "Shipping", "Hacking", "Staging", "Testing", 
-				     "Reconfiguring", "Socializing", "Articulating"];
+				     "Reconfiguring", "Socializing", "Articulating", "Restructuring", "Disrupting"];
 				   
 	var nounsSing = ["Data", "Pointer", "Nested", "Bit", "Stack", "Web Scale", "Deployment",
 				    "Framework", "Pivot", "Agile", "Cloud", "Realtime", "Big Data",
