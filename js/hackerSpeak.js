@@ -13,9 +13,9 @@
 					"Servers", "Feeds", "Updates"];
 
 	$.fn.hackerSpeak = function () {
-		var randVerb = Math.floor(Math.random() * 10) % verbs.length;
-		var randNounSing = Math.floor(Math.random() * 10) % nounsSing.length;
-		var randNounPlur = Math.floor(Math.random() * 10) % nounsPlur.length;
+		var randVerb = Math.floor(Math.random() * 100) % verbs.length;
+		var randNounSing = Math.floor(Math.random() * 100) % nounsSing.length;
+		var randNounPlur = Math.floor(Math.random() * 100) % nounsPlur.length;
 		var phrase = verbs[randVerb] + " " + nounsSing[randNounSing] + " " + nounsPlur[randNounPlur] + "...";
 		return this.each( function () {
 			$(this).html(phrase);
