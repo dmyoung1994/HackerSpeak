@@ -3,7 +3,7 @@ A jQuery plugin that generates random tech buzzphrases out of a catagory of buzz
 ## How-To
 Pick any element and use the `.hackerSpeak()` method on it:
 ```
-$('.classOrId).hackerSpeak();
+$('.classOrId').hackerSpeak();
 ```
 ## To Come
 - Add on timer option
