@@ -10,7 +10,7 @@
 				    "Responsive", "Vertical", "Social"];
 				    
 	var nounsPlur = ["Tables", "Nodes", "Containers", "Traces", "Databases", "Technologies",
-					"Servers", "Feeds", "Updates"];
+					"Servers", "Feeds", "Updates", "Arrays", "Trees"];
 
 	$.fn.hackerSpeak = function () {
 		var randVerb = Math.floor(Math.random() * 100) % verbs.length;
